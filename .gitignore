@@ -1,0 +1,177 @@
+i# =========================================
+# UNIVERSAL GITIGNORE FOR MULTI-PLATFORM C++ PROJECTS
+# Targets: macOS, iOS, Windows, Linux, Android
+# =========================================
+
+# ------------------------
+# OS / Filesystem Junk
+# ------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.swp
+*~
+
+# ------------------------
+# Build Output / Artifacts
+# ------------------------
+build/
+Build/
+bin/
+Bin/
+obj/
+Obj/
+out/
+Out/
+dist/
+*.o
+*.obj
+*.so
+*.a
+*.la
+*.lo
+*.dll
+*.dylib
+*.exe
+*.pdb
+*.lib
+*.idb
+*.ilk
+*.tmp
+*.cache
+*.log
+*.bak
+*.swp
+*.user
+*.suo
+*.ncb
+*.opendb
+*.tlog
+*.manifest
+*.exp
+
+# ------------------------
+# CMake / Make / Ninja
+# ------------------------
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+ninja.build
+*.ninja_deps
+*.ninja_log
+
+# ------------------------
+# IDEs / Editors
+# ------------------------
+
+# --- VSCode ---
+.vscode/
+*.code-workspace
+
+# --- Xcode ---
+*.xcworkspace/
+*.xcuserdata/
+DerivedData/
+*.xcuserstate
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# --- Visual Studio ---
+.vs/
+*.VC.db
+*.VC.opendb
+*.vcxproj.user
+*.vcxproj.filters
+*.aps
+*.ipch/
+*.opendb
+
+# --- JetBrains / CLion ---
+.idea/
+cmake-build-*/
+
+# --- Eclipse ---
+.project
+.cproject
+.settings/
+.metadata/
+
+# ------------------------
+# Android / Gradle
+# ------------------------
+.gradle/
+local.properties
+.cxx/
+.externalNativeBuild/
+captures/
+*.apk
+*.ap_
+*.dex
+*.class
+*.iml
+app/build/
+gradle-app.setting
+*.keystore
+
+# ------------------------
+# Apple Platforms (iOS/macOS)
+# ------------------------
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.entitlements
+*.xcconfig
+*.dSYM/
+Pods/
+Podfile.lock
+Carthage/
+DerivedData/
+*.ipa
+
+# ------------------------
+# JUCE / Audio Development
+# ------------------------
+JuceLibraryCode/
+*.jucer
+*.xcconfig
+*.vst3/
+*.component/
+*.aaxplugin/
+*.dSYM/
+
+# ------------------------
+# Miscellaneous
+# ------------------------
+*.orig
+*.rej
+*.dmp
+*.trace
+*.out
+*.pid
+*.gz
+*.zip
+*.tar
+*.tgz
+*.7z
+*.bak
+*.old
+*.tmp
+*.swp
+
+# ------------------------
+# Local Configuration
+# ------------------------
+.env
+.env.*
+*.local
+*.secret
